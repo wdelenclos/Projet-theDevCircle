@@ -1,6 +1,4 @@
-# Projet.TheDevCircle
-
-The Dev Circle
+#The Dev Circle
 ===================
 
 
