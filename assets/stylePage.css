@@ -1,0 +1,643 @@
+
+body {
+    background-color: #292e34;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+/* ACCUEIL ------------------------> */
+
+.accueil a, .accueil p, .accueil h1, .accueil h2, .accueil h3, .accueil small, .accueil button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.accueil .primary{
+    background: url("img/background.jpg") no-repeat;
+    padding-bottom: 20%;
+}
+
+.accueil nav a{
+    display: inline-block;
+    float: right;
+    margin: 30px 30px 0 45px;
+    text-decoration: none;
+    color: #8dd5c7;
+    font-size: 16px;
+}
+
+.accueil nav a:hover{
+    color: #fff;
+}
+
+.accueil h1{
+    clear: both;
+    margin-bottom: 10%;
+}
+
+.accueil h1 img{
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+
+.accueil h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.accueil .primary h2{
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.accueil .primary p, .accueil button{
+    margin: 5% 0;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+}
+
+.accueil button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: #41a28f;
+    margin: 0 auto;
+    border: 0;
+}
+
+.accueil a{
+    text-decoration: none;
+}
+.accueil .secondary{
+    background: #fff;
+}
+
+.accueil .secondary{
+    padding: 10% 0 8% 0;
+}
+
+.accueil .secondary h2{
+    margin-bottom: 8%;
+}
+
+.accueil .secondary ul{
+    width: 1020px;
+    margin: auto;
+}
+
+.accueil .secondary li{
+    float: left;
+    width: 280px;
+    margin-right: 90px;
+}
+
+.accueil .last{
+    margin-right: 0!important;
+    float: right!important;
+}
+
+.accueil .secondary div{
+    background: #a2a1a1;
+    border-radius: 50%;
+    width: 210px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.accueil .secondary img{
+    width: 200px;
+}
+
+.accueil h3{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accueil .secondary p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    color: #41a28f;
+    width: 230px;
+    margin: auto;
+}
+
+.accueil footer{
+    background: #cbeee7;
+    padding: 12% 0 20px 0;
+}
+
+.accueil footer button{
+    margin-bottom: 12%;
+}
+
+.accueil small{
+    display: block;
+    text-align: center;
+    font-size: 8px;
+}
+
+a button{
+    color: #fff;
+
+    border: 0;
+}
+/* MENU VERTICAL ------------------------> */
+
+
+/* Icones dans le reset.css */
+.verticalmenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+    z-index: 9;
+}
+
+.verticalmenu li a {
+	display: block;
+	text-indent: -500em;
+	height: 5em;
+	width: 5em;
+	line-height: 5em;
+	text-align: center;
+	color: #5d5d5d;
+	position: relative;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	transition: background 0.1s ease-in-out;
+}
+.verticalmenu li:hover{
+    transition-duration: 1s;
+}
+.verticalmenu li:hover a {
+    color: #fff;
+}
+.active a {
+    color: #fff!important;
+}
+.verticalmenu li:first-child a {
+    margin: 20% 0 80% 0;
+    text-indent: 0em;
+}
+.verticalmenu li a img{
+    width: 50%;
+}
+.user:hover{
+    background: #41a28f;
+}
+.match:hover{
+    background: #41a28f;
+}
+
+.exit:hover{
+    background: #41a28f;
+}
+.active{
+    background: #41a28f;
+}
+/* class for current item */
+.verticalmenu li.cbp-vicurrent a{
+	background: #fff;
+	color: #41a28f;
+}
+
+.verticalmenu li a:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	text-indent: 0em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 1.4em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.verticalmenu li a.icon-logo:before {
+	content: "";
+	font-weight: 700;
+	font-size: 300%;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+
+/* Example for media query (depends on total height of menu) */
+@media screen and (max-height: 34.9375em) { 
+
+	.verticalmenu {
+		font-size: 70%;
+	}
+
+}
+
+
+.mots {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    
+}
+.map{
+    overflow: hidden;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    z-index: 3;
+}
+
+.mots .filter{
+    width: 100%;
+    height: 600%;
+    background-color: rgba(41, 46, 52, 0.8 );
+    position: fixed;
+    z-index: -1;
+    margin-top: -100%;
+}
+.mots form{
+    width: 645px;
+    margin: 20% auto 0;
+}
+
+.mots select, .mots label, .mots input{
+    font-size: 1.5em;
+    width: 350px;
+    height: 60px;
+    margin: 20px 15px;
+}
+
+select, label, input, textarea{
+    font-family: 'Source Code Pro', Calibri, Arial, sans-serif;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-weight: 200;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 320px;
+    border-radius: 0;
+    height: 40px;
+    padding-left: 15px;
+    background: rgba(255, 255, 255, 0.2) url(../assets/img/dropdown.png) no-repeat 95% 50%;
+}
+
+.mots input[type="text"] {
+    border-bottom: 1px solid white;
+    height: 40px;
+    width: 306px;
+}
+input[type="submit"], .contactButton {
+    display: block;
+    width: 320px;
+    height: 40px;
+    background-color: #41a28f;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin: 50px auto 0 ;
+}
+input[type="submit"]:hover {
+    background-color: #41a29f;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+#container{
+    z-index: -3;
+    
+}
+#stats{
+    display: none;
+}
+
+.profile p,.profile h1,.profile h2, .modale p, .modale h1, .modale h2{
+  letter-spacing: 0.1em;
+  font-weight: 200;
+  font-family: "Source Sans Pro";
+}
+
+.profile p{
+  color: #fff;
+  font-size: 15px;
+}
+
+.profile h1{
+  font-family: "Source Code Pro";
+  margin: 50px 0 50px 0;
+  font-size: 30px;
+  color: #41a28f;
+}
+
+.profile h1 img, .profile h2 img{
+    width: 17px;
+    height: 17px;
+    margin-left: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.profile h2{
+  font-size: 20px;
+  color: #8dd5c7;
+}
+
+.profile, .modale{
+    display: none;
+    position: absolute;
+    z-index: 4;
+}
+.profile .primary{
+  width: 560px;
+  float: left;
+}
+
+.modale{
+    margin-top: 25px;
+    margin-left: 27%;
+    width: 50%;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.profile .primary p{
+  margin: 20px 0 30px 0;
+}
+
+.profile section{
+  background-color: #292e34;
+  margin-top: 370px;
+  height: 80%;
+  box-shadow: 1px 1px 12px #1c1c1c;
+}
+.profile{
+     padding-top: 130px;
+     padding-left: 56px;
+     height: 100%;
+    width: 100%;
+ }
+.profile .secondary{
+  margin: -90px 100px 0 100px;
+  width: 210px;
+  height: 100%;
+  float: left;
+}
+
+.profile .picture{
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #292e34;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 38px;
+  box-shadow: 1px 1px 12px #1c1c1c;
+  position: relative;
+  text-align: center;
+}
+
+.profile .picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* EDIT PROFILE ------------------------> */
+
+.profile .picture .hover{
+    position: absolute;
+    top: 5px;
+    display: none;
+}
+
+.profile .igenre ,
+.profile .egenre{
+    cursor: pointer;
+  display: block;
+  width: 50px;
+  margin: auto;
+}
+
+.profile .egenre{
+    display: none;
+}
+
+.profile .nom input{
+    width: 250px;
+    height: 40px;
+    margin: 40px 20px 48px 0;
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    display: none;
+}
+
+.profile .nom input:last-child{
+    margin-right: 0;
+}
+
+.profile .nom input:first-child{
+    width: 200px;
+}
+
+.profile .description textarea{
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid white;
+    font-size: 15px;
+    margin: 20px 0 30px 0;
+    display: none;
+}
+
+.profile ul:last-child{
+    display: none;
+}
+
+.profile .secondary p{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.profile ul, .modale ul{
+  margin-top: 20px;
+  width: 530px;
+}
+.modale a {
+    text-decoration: none;
+}
+
+.profile li, .modale li{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #5d5d5d;
+  border-radius: 50px;
+  margin: 0 15px 15px 0;
+}
+
+.modale li img, .profile li img{
+    width: 70px;
+    height: 70px;
+}
+
+.profile .filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 46, 52, 0.99 );
+}
+
+/* HOVER COMPETENCES------------------------> */
+
+.profile li img:last-child, .modale li img:last-child{
+
+}
+
+/* PAGE MODALE ------------------------> */
+.modaleSub{
+    overflow: auto;
+    max-height: 100%;
+}
+@media screen and (max-height: 840px){
+    .modaleSub{
+        max-height: 500px;
+    }
+}
+.modale section{
+  width: 52%;
+  margin: 90px auto;
+  background: #fff;
+  box-shadow: 1px 1px 12px #1c1c1c;
+  padding: 60px 7%;
+  box-sizing: border-box;
+}
+
+.modale .profilePicture{
+  display: block;
+  width: 152px;
+  margin: auto;
+  border-radius: 50%;
+}
+.modale .close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    top: 20px;
+}
+.modale .close:hover{
+   cursor: pointer;
+}
+
+.modale h1, .modale h2, .modale p{
+  text-align: center;
+}
+
+.modale h1, .modale h2{
+  color: #41a28f;
+}
+
+.modale h1{
+  font-family: "Source Code Pro";
+  font-size: 30px;
+  margin: 20px 0 45px 0;
+}
+
+.modale h2{
+  font-size: 25px;
+  margin: 55px 0 15px 0;
+}
+
+.age{
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.resume{
+  font-size: 16px;
+}
+
+.gender{
+  width: 30px;
+  display: block;
+  margin: auto;
+}
+
+.modale ul{
+  margin: auto;
+}
+
+.bottom{
+    height: 60%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#timer1{
+    font-family: "Source Code Pro";
+    font-size: 20px;
+    z-index: 6;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+#timer2{
+    font-family: "Source Code Pro";
+    font-size: 20px;
+    z-index: 6;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+}
+#timer1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ecomp {
+    display: none;
+}
+
+.genre p{
+    cursor: pointer;
+}
+.age{
+    display: none;
+    color: #fff;
+    background-color: #292e34;
+    width:30% ;
+    margin: 30px auto 0;
+}
+#erreur {
+    color: #e57c81;
+}

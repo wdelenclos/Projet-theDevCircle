@@ -1,0 +1,117 @@
+/* GENERAL */
+
+body {
+    background: url("img/fond.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    color: white
+
+}
+.inner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+a {
+   
+}
+
+/* SECTION FORMULAIRE */
+h1 {
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 40px;
+}
+section {
+    background-color: white;
+    width: 680px;
+   padding-bottom: 50px;
+    margin: auto;
+}
+
+section img {
+    width: 60px;
+    margin: 50px 0 30px;
+}
+input {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    width: 320px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #41a28f;
+    padding: 10px 0 10px 60px;
+    letter-spacing: 3px;
+}
+.user {
+    background: url("img/social.png") no-repeat;
+    background-position: left center;
+}
+.pw {
+    background: url("img/lock.png") no-repeat;
+    background-position: left center;
+}
+
+.submit{
+        padding: 10px 0 10px 0px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #41a29f;
+}
+
+input[placeholder] {
+    color: #8ddccc;
+    font-size: 20px;
+    font-weight: 100;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #8ddccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #8ddccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #8ddccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #8ddccc;
+}
+input:focus {
+    outline: none;
+}
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    width: 320px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #41a28f;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: white;
+}
+section a {
+    text-decoration: none;
+    color: #41a28f;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+section a span {
+    font-weight: 400;
+}
+.small {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #a1a1a1;
+}
+
